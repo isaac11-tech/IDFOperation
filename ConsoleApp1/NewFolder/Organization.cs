@@ -5,11 +5,6 @@ namespace ConsoleApp1.Organization
 
 
 {
-
-
-  
-
-
     public class Hammas
     {
         private int DateOfFormation { get; }

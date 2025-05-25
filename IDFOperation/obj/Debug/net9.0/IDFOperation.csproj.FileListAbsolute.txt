@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.AssemblyInfo.cs
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.sourcelink.json
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\bin\Debug\net9.0\IDFOperation.exe
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\bin\Debug\net9.0\IDFOperation.deps.json
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\bin\Debug\net9.0\IDFOperation.runtimeconfig.json
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\bin\Debug\net9.0\IDFOperation.dll
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\bin\Debug\net9.0\IDFOperation.pdb
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.dll
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\refint\IDFOperation.dll
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.pdb
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\IDFOperation.genruntimeconfig.cache
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Debug\net9.0\ref\IDFOperation.dll

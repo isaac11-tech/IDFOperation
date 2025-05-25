@@ -4,7 +4,10 @@ internal class Program
 {
     static void Main(string[] args)
     {
-                       StrikeOptions strike = new StrikeOptions();
+        DefinitionsIDF definitionsIDF = new DefinitionsIDF("zmir");
+        definitionsIDF.WeaponsReport();
+
+
         Console.WriteLine("Hello, World!");
     }
 }

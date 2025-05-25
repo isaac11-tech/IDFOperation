@@ -1,11 +1,9 @@
 ﻿using ConsoleApp1.AbstractClass;
 using ConsoleApp1.Enemy;
 
-namespace ConsoleApp1.Organization
-
-
-{
-    public class Hammas
+namespace ConsoleApp1.Organization 
+{ 
+  public class Hammas
     {
         private int DateOfFormation { get; }
         private string Description { get; set; }

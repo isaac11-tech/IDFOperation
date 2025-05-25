@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using ConsoleApp1.AbstractClass;
 
 
@@ -6,13 +7,13 @@ namespace ConsoleApp1.Enemy
 {
     public class Terrorist
     {
-        private string Name { get; }
-        private int Rank { get; set; }
-        private string Organizational_Afilliation { get; set; }
-        private char Status { get; set; }
-        private List<Weapon> Weapons { get; } = new List<Weapon>();
-
-
+        public string Name { get; }
+        public int Rank { get; set; }
+        public string Organizational_Afilliation { get; set; }
+        
+        private int dangerCounter;
+        public char Status { get; set; }
+        public List<Weapon> Weapons { get; } = new List<Weapon>();
         public Terrorist(string name, int rank, string affiliation, char status)
         {
             this.Name = name;
@@ -23,14 +24,23 @@ namespace ConsoleApp1.Enemy
         public void AddWeapon(Weapon x)
         {
             Weapons.Add(x);
+            dangerCounter += x.DangerRank;
         }
         public void RemoveWeapon(Weapon x)
         {
             Weapons.Remove(x);
+            dangerCounter -= x.DangerRank;
         }
 
+        public int GetTotalScore()
+        {
+            return Rank * dangerCounter;
+        } 
 
-
+        public string Info()
+        {
+            return $"{Name}\n affiliate in{Organizational_Afilliation}\nrank:{Rank}";
+        }
 
 
     }

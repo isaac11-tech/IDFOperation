@@ -1,0 +1,4 @@
+C:\Users\photo\source\repos\IDF_SECURITY_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\photo\source\repos\IDF_SECURITY_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\photo\source\repos\IDF_SECURITY_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\photo\source\repos\IDF_SECURITY_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache

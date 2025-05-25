@@ -9,7 +9,7 @@ namespace IDFOperation.strikeOptions
     internal class M109Artillery : StrikeOptions
     {
         public M109Artillery(string uniqueName, int ammunitionCapacity,
-            int fuelSupply, string effectiveTarget)
+            int fuelSupply, TypesTarget effectiveTarget)
             : base(uniqueName, ammunitionCapacity, fuelSupply, effectiveTarget)
         {
 
@@ -17,3 +17,5 @@ namespace IDFOperation.strikeOptions
         }
     }
 }
+
+

@@ -9,7 +9,7 @@ namespace IDFOperation.strikeOptions
     internal class Hermes460Drone : StrikeOptions
     {
         public Hermes460Drone(string uniqueName, int ammunitionCapacity,
-            int fuelSupply, string effectiveTarget)
+            int fuelSupply, TypesTarget effectiveTarget)
             : base(uniqueName, ammunitionCapacity, fuelSupply, effectiveTarget)
         {
 

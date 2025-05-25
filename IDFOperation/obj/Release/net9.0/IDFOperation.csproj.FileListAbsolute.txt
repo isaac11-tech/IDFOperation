@@ -1,0 +1,5 @@
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Release\net9.0\IDFOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Release\net9.0\IDFOperation.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Release\net9.0\IDFOperation.AssemblyInfo.cs
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Release\net9.0\IDFOperation.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\IDFOperation\IDFOperation\obj\Release\net9.0\IDFOperation.sourcelink.json

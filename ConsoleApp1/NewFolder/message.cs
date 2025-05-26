@@ -19,7 +19,7 @@ namespace ConsoleApp1.message
 
         public void Info()
         {
-            Console.WriteLine($"name:{this.Wanted.Name}\n{Location}\n{TimeStamp}");
+            Console.WriteLine($"name:{this.Wanted.Name}\nlocation: {Location}\n--{TimeStamp}--\n");
         }
 
 

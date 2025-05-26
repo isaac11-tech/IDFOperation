@@ -5,10 +5,11 @@ namespace ConsoleApp1.Organization
 { 
   public class Hammas
     {
-        private int DateOfFormation { get; }
-        private string Description { get; set; }
-        private string Commander { get; set; }
-        private List<Terrorist> Afilliates { get; } = new List<Terrorist>();
+        public int DateOfFormation { get; }
+        public string Description { get; set; }
+        public string Commander { get; set; }
+        
+        public List<Terrorist> Afilliates { get; }  = new List<Terrorist>();
 
         public Hammas(string description, string commander)
         {
@@ -24,7 +25,8 @@ namespace ConsoleApp1.Organization
         {
             Afilliates.Remove(x);
         }
-    
+
+       
     }
 
     

@@ -11,7 +11,7 @@ namespace ConsoleApp1.Enemy
         public int Rank { get; set; }
         public string Organizational_Afilliation { get; set; }
         
-        private int dangerCounter;
+        public int DangerCounter { get; set; }
         public char Status { get; set; }
         public List<Weapon> Weapons { get; } = new List<Weapon>();
         public Terrorist(string name, int rank, string affiliation, char status)
@@ -24,22 +24,22 @@ namespace ConsoleApp1.Enemy
         public void AddWeapon(Weapon x)
         {
             Weapons.Add(x);
-            dangerCounter += x.DangerRank;
+            DangerCounter += x.DangerRank;
         }
         public void RemoveWeapon(Weapon x)
         {
             Weapons.Remove(x);
-            dangerCounter -= x.DangerRank;
+            DangerCounter -= x.DangerRank;
         }
 
         public int GetTotalScore()
         {
-            return Rank * dangerCounter;
+            return Rank * DangerCounter;
         } 
 
         public string Info()
         {
-            return $"{Name}\n affiliate in{Organizational_Afilliation}\nrank:{Rank}";
+            return $"name: {Name}\naffiliates in: {Organizational_Afilliation}\nrank: {Rank}\nstatus: {Status}\n";
         }
 
 

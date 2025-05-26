@@ -5,20 +5,20 @@ namespace ConsoleApp1.NewFolder
 {
     public class Intelligence
     {
-        private List<Message> Messages {  get; }
+        public List<Message> Reports {  get; }
 
-        Intelligence()
+        public Intelligence()
         {
-            Messages = new List<Message>();
+            Reports = new List<Message>();
         }
 
         public void AddMessage(Message report)
         {
-            Messages.Add(report);
+            Reports.Add(report);
         }
         public void RemoveMessage(Message report)
         {
-            Messages.Remove(report);
+            Reports.Remove(report);
         }
 
 
